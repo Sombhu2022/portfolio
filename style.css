@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* preloader styleing */
+
+div.preloader{
+    background: #222427af ;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    font-size: 30vh;
+    text-align: center;
+    justify-content: center;
+}
+div.preloader i{
+    margin-top: 25%;
+}
+
+/* end preloader */
+
+
+
+
+body{
+    background: #112e49;
+    color: aliceblue;
+    position: relative;
+    overflow-x: hidden;
+}
+
+
+/* navber designing */
+
+nav.navber{
+    display: flex;
+    flex-direction:row;
+    overflow: hidden;
+    background:#11181e;
+    position: sticky;
+    top: 0;
+    z-index: 9999; /*Remove contant overflow*/
+    box-shadow: 2px 0px 10px 5px #4e5050 ;
+}
+nav.navber div.menu{
+    
+    display: flex;
+    justify-content: end;
+}
+
+nav.navber #menu_box , #clear{
+    font-size: 40px;
+    margin-right:2px;
+    display: none;
+
+}
+nav.navber .logo{
+    height:7vh;
+    width: auto;
+    /* margin-right:40%; */
+    float: left;
+    display:block; 
+ 
+    
+}
+div.nav_option{
+    width: 80%;
+    display:flex;
+    justify-content:end;
+    flex-wrap: wrap;
+    flex-direction:row;
+}
+
+div.nav_option a{
+    /* float: right; */
+    /* text-align:center; */
+    color: aqua;  
+    text-decoration: none;
+    padding: 20px 20px;
+    font-size: 20px;
+}
+div.nav_option a:hover {
+    font-size: 20px;
+    text-shadow: 2px 2px 10px aqua;
+    transition: ease-in-out 1s;
+    background: #4e505076;
+    border-radius:0px  0px 20px 20px;
+}
+div.nav_option a:active {
+    text-shadow: 2px 2px 10px aqua;
+    transition: ease-in-out 1s;
+    background: #4e505076;
+    border-radius:0px  0px 20px 20px;
+}
+/* end navber */
+
+
+
+
+
+
+
+/* all section style  */
+.home, .about , .contact, .projects , #skill   {
+    height: auto;
+    width:80%;
+    margin-top: 30px;
+    margin-left:10%;
+    padding-top: 20vh;
+    /* border: solid 2px red ;
+     */
+   
+}
+
+
+
+
+/* home section designing */
+
+div.home {
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: row;
+}
+
+div.section_left{
+
+  width: 50%;
+}
+div.section_right{
+   
+    width: 40%;
+    /* border:  solid 1px black; */
+}
+#my_photo{
+    padding-top: 10vh;
+    height:48vh;
+    width: 80%;
+    border-radius: 50%;
+    border: solid 5px  aqua ;
+    padding: 5px;
+  
+}
+div.home h1{
+    font-size: 30px;
+
+    
+}
+div.section_left p{
+    font-size:3vh;
+    margin-top:10vh;
+}
+div.section_left button , #contact_button{
+    font-size: 4vh;
+    height: 6vh;
+    width: auto;
+   margin-top: 5vh;
+   border: solid 1px aqua;
+  background: transparent;
+  width: 30vh;
+  border-radius: 5px;
+}
+#button , #contact_button{
+    color:aqua;
+    text-decoration: none;
+    padding-left: 10px;
+
+}
+#button:hover ,#button a:hover ,  #contact_button:hover{
+    background: aqua;
+    box-shadow: 0px 0px 10px 2px aqua;
+    color:black;
+    font-weight: bold;
+    transition: ease-in-out 1s ;
+}
+
+/* end home section  */
+
+
+/* about section styling */
+
+
+.about{
+    padding-top: 20vh;
+}
+
+.about h1{
+    font-size: 30px;
+    font-style: italic;
+
+}
+
+#about_me {
+    font-size:3vh;
+    margin-top:10vh;
+}
+#about_me b{
+    color: rgb(227, 136, 24);
+}
+
+
+/* projects section design */
+
+div.project{
+    margin-top: 5vh;
+    border-bottom: solid 1px aqua;
+}
+
+div.project img{
+    height: 60vh;
+    width:100%;
+    margin-top: 20px;
+}
+div.project img:hover{
+    border: solid aqua 1px ;
+    box-shadow: 0px 0px 10px 6px rgba(0, 255, 255, 0.368);
+    padding: 5px;
+    
+}
+
+div.project a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+div.project i{
+    /* height: 7vh;
+    width: 7vh; */
+    border: solid 1px aqua;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 20vh;
+    margin-bottom:3vh;
+    margin-top: 2vh;
+}
+
+div.project i:hover{
+    background: aqua;
+    color: black;
+    box-shadow: 0px 0px 10px 5px aqua;
+    transition: ease-in-out 1s;
+
+}
+
+.project h2{
+    font-style: italic;
+    color: aqua;
+    text-shadow: 2px 2px 10px aqua;
+}
+.project p{
+    margin-top: 3vh;
+}
+.project p b{
+    color: rgb(237, 136, 12);
+
+}
+
+/* skill section design  */
+
+/* .skill {
+   
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left:10%;
+    margin-top: 5%;
+    text-align: center;
+    width: 100px;
+    height:100px;
+    
+    border-radius: 50%;
+    background:#817878 linear-gradient(to right , transparent 50% , aqua);
+}
+.skill::before{
+    content: '';
+    display: block;
+    height: 100%;
+   
+    transform-origin: left;
+    border-radius: 0 100% 100% 0/50%;
+}
+.skill::after{
+    content: '';
+    position: absolute;
+
+    border-radius: 50%;
+    background:#112e49;
+}
+  
+
+  
+div.skill_section section{
+    padding-top: 10vh;
+} */
+
+/* css with progress bar */
+.skill_section{
+    overflow: hidden;
+}
+
+@keyframes progress {
+    0% { --percentage: 0; }
+    100% { --percentage: var(--value); }
+  }
+  
+  @property --percentage {
+    syntax: '<number>';
+    inherits: true;
+    initial-value: 0;
+  }
+  
+  .skill {
+    --percentage: var(--value);
+    
+    --size: 120px;
+    animation: ease-in-out progress 2s 0.5s forwards;
+    width: var(--size);
+    aspect-ratio: 1;
+    border-radius: 50%;
+    position: relative;
+    overflow-x: hidden;
+    display:inline-flex;
+    /* place-items: center; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left:10%;
+    margin-top: 5%;
+    text-align: center;
+
+   
+  }
+
+  .skill:hover{
+    animation: ease-in-out progress 2s 0.5s infinite;
+  }
+  
+  .skill::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: conic-gradient(var(--primary) calc(var(--percentage) * 1%), var(--secondary) 0);
+    mask: radial-gradient(white 55%, transparent 0);
+    mask-mode: alpha;
+    -webkit-mask: radial-gradient(#0000 55%, #000 0);
+    -webkit-mask-mode: alpha;
+    overflow-x: hidden;
+
+  }
+  
+  .skill::after {
+    counter-reset: percentage var(--value);
+    content:'';
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: calc(var(--size) / 9);
+    color: var(--primary);
+    overflow-x: hidden;
+
+  }
+
+
+
+  /* contact section design  */
+
+
+
+  .contact{
+    border-top: solid 1px aqua;
+  }
+  .contact p{
+ 
+    
+    font-size:3vh;
+    margin-top:10vh;
+    font-style: italic;
+
+  }
+
+.contact p b{
+    font-size: 4vh;
+    color:goldenrod;
+}  
+.contact i{
+    border: solid 1px aqua;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 15vh;
+    margin-bottom:3vh;
+    margin-top: 2vh;
+    justify-content: center;
+
+}
+div.contact a{
+    color: whitesmoke;
+    text-decoration: none; 
+   
+}
+div.contact i:hover{
+    background: aqua;
+    color: black;
+    box-shadow: 0px 0px 10px 5px aqua;
+    transition: ease-in-out 1s;
+}
+
+
+
+
+
+
+@media only screen and (max-width:700px) {
+    
+    div.home {
+       
+       
+        flex-direction: column;
+    }
+
+    .home, .about , .contact , .projects , .skills{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    div.home div{
+         width: 100%;
+         padding-top: 5vh;
+    }
+    div.section_right #my_photo{
+       
+        height:48vh;
+    width: 70%;
+    }
+    
+
+    
+   div.nav_option a{
+    display: flex;
+    justify-content: center;
+    
+   }
+  
+   .navber .nav_option{
+    align-items:"center";
+    justify-content: left;
+
+ }
+
+    div.project i , div.contact i{
+        margin-left: 18px;
+    }
+    div.project img{
+        height: 40vh;
+    }
+
+}
+
+@media only screen and (max-width:480px) {
+
+    
+    div.section_right #my_photo{
+       
+        height:42vh;
+    width: 90%;
+    }
+   
+    nav.navber #menu_box{
+        display: block;
+        float: right;
+       margin-left:20vh;
+    }
+    .navber .nav_option{
+       align-items:"";
+        display:none;
+    }
+    div.nav_option a:hover , div.nav_option a:active{
+        border-radius:20px;
+        
+       }
+    
+
+}

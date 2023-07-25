@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./t_icon.png" type="image/png">
+    <title> Sombhu Das</title>
+</head>
+<body>
+    <!-- preloader  -->
+    <div class="preloader" id="load"><i class="fa-solid fa-spinner fa-spin-pulse" style="color: #6df6f8;"></i></div>
+    <!-- end preloader  -->
+
+
+
+    <!-- start navber  -->
+    <nav class="navber">
+        <img class="logo" id="logo" src="logo1.png" alt="logo">
+        <div class="nav_option" id="nav_option">
+            <a href="#home" rel="noopener noreferrer">Home</a>
+            
+            <a href="#about"  rel="noopener noreferrer">About</a>
+            <a href="#projects"  rel="noopener noreferrer">Projects</a>
+            <a href="#skill"  rel="noopener noreferrer">Skill</a>
+            <a href="#contact"  rel="noopener noreferrer">Contact Me</a>
+            
+        </div>
+        <div class="menu">
+            <i id="menu_box" onclick="ShowOption()" class="fa-solid fa-bars fa-fade" style="color: rgba(0, 255, 255, 0.5); "></i>
+            <i id="clear" onclick="hide()" class="fa-solid fa-xmark fa-fade" style="color: #51e5f0;"></i>
+        </div>
+    </nav>
+
+<!-- end navber  -->
+
+
+    <!-- home section -->
+    <div class="home">
+        <div class="section_left">
+            <section id="home"><h1><i> HELLO ,<br> I'M <b style="color: rgb(218, 173, 36);"> SOMBHU DAS</b></i> </h1>
+                <p class="me">
+                    Welcome to my portfolio! I am a motivated and ambitious 
+                    student who recently completed a <b style="color: gold;">Bachelor's degree in Computer
+                        Applications (BCA)</b>. With a strong passion for coding and problem-solving,
+                      I specialize in <b style="color: gold;">full stack development</b> .
+                </p>
+                <a href="#about"> <button id="button">About Me</button></a>
+            </section>
+        </div>
+        <div class="section_right">
+    <img id="my_photo" src="photo.jpg" alt="my photo">
+ </div></div>
+
+ <!-- end home  -->
+
+    <!-- about section -->
+    <div class="about" id="about">
+        <section id="section">
+        <h1> About Me  |</h1>  
+        <p id="about_me">
+           Hii there , I'm a <b> full stack web developer</b> , I've recently completed my BCA degree from Panskura Banamali College . 
+           I have gained a solid foundation in various programming languages,
+            frameworks, and tools essential for full stack development. I can learn any new skill <b>very quickly</b>  and i have done <b>web development
+                practice for one year.
+            </b> </p> 
+       <a href="#contact"><button id="contact_button">Contact Me</button></a>
+
+        </section>
+    </div>
+
+    <!-- projects section -->
+    <div class="projects" id="projects">
+        <section><h1>MY Projects |</h1>
+            <div class="project">
+                <h2>STUDENT__Q</h2><p>Using Technology :<b> Django,JS,HTML,CSS </b></p>
+                <img src="project1.png" alt="">
+                <a href="https://github.com/Sombhu2022/StudentQ"><i class="fa-brands fa-github"></i></a>
+                <a href="./StudentQ-main.zip" download><i class="fa-solid fa-download"></i></a>
+                <!-- <a href=""><i class="fa-brands fa-firefox-browser"></i></a>
+                <a href=""><i class="fa-solid fa-qrcode"></i></a> -->
+                <a href="" onclick="whatsapp(1)"><i class="fa-solid fa-share-nodes"></i></a>
+               
+               
+            </div>
+            <div class="project">
+                <h2>TIC TAC TAO</h2><p>Using Technology :<b>HTML,CSS,JS </b></p>
+                <img src="project3.png" alt="">
+                <a href="https://github.com/Sombhu2022/game/tree/main/tic%20tac%20toe"><i class="fa-brands fa-github"></i></a>
+                <a href="./tic tac toe.zip" download><i class="fa-solid fa-download"></i></a>
+                <a href="https://tic-tac-toe-sombhu2022.vercel.app/"><i class="fa-brands fa-firefox-browser"></i></a>
+                <!-- <a href=""><i class="fa-solid fa-qrcode"></i></a> -->
+                <a href="" onclick="whatsapp(2)"><i class="fa-solid fa-share-nodes"></i></a>
+            </div>
+
+            <div class="project"><h2>DATA COLLECTOR </h2><p>Using Technology :<b> HTML,CSS,PHP,MYSQL</b></p>
+                <img src="project2.png" alt="">
+                <a href="https://github.com/Sombhu2022/Data-collector/tree/main"><i class="fa-brands fa-github"></i></a>
+                <a href="./Data colector web app.zip" download><i class="fa-solid fa-download"></i></a>
+                <!-- <a href=""><i class="fa-brands fa-firefox-browser"></i></a>
+                <a href=""><i class="fa-solid fa-qrcode"></i></a> -->
+                <a href="" onclick="whatsapp(3)"><i class="fa-solid fa-share-nodes"></i></a>
+            </div>
+           
+        
+        </section>
+    </div>
+
+    <!-- skill section -->
+
+            <div class="skill_section" id="skill">
+                
+                    <h1>skills |</h1>
+
+                    <section id="programming">
+                        <h2>programming languages</h2>
+                        <div class="skill"  aria-valuenow="67" aria-valuemin="0" aria-valuemax="10" style="--value:75;--primary:aqua;
+    --secondary: rgba(170, 221, 255, 0.345);">
+                        <p>C++</p></div>
+                        
+                        <div class="skill"  aria-valuenow="67" aria-valuemin="0" aria-valuemax="30" style="--value: 85;  --primary:rgb(0, 153, 255);
+    --secondary: rgba(170, 221, 255, 0.171);">
+                        <p>JAVA</p></div>
+                        
+                        <div class="skill"  aria-valuenow="67" aria-valuemin="0" aria-valuemax="30" style="--value: 92;  --primary:rgb(0, 132, 255);
+                        --secondary: rgba(170, 221, 255, 0.231);">
+                        <p>PYTHON</p>
+                        </div>
+                        
+                        <div class="skill"  aria-valuenow="67" aria-valuemin="0" aria-valuemax="30" style="--value: 60;  --primary:rgb(212, 255, 0);
+    --secondary: rgba(172, 205, 26, 0.306);">
+                        <p>PHP</p></div>
+                        
+                        <div class="skill"  aria-valuenow="67" aria-valuemin="0" aria-valuemax="30" style="--value: 60;  --primary:rgb(255, 179, 0);
+    --secondary: rgba(255, 231, 170, 0.272);">
+                        <p>JAVASCRIPT</p></div>
+                        
+                    
+                    </section>
+
+                    <section id="frontend">
+                        <h2>frontend Technologys</h2>
+                        <div class="skill"  aria-valuenow="67" aria-valuemin="0" aria-valuemax="30" style="--value: 95; --primary:rgb(0, 132, 255);
+                        --secondary: rgba(170, 221, 255, 0.231);">
+                                 <p>HTML</p></div>
+                      <div class="skill"  aria-valuenow="67" aria-valuemin="0" aria-valuemax="30" style="--value: 70 ; --primary:aqua;
+    --secondary: rgba(170, 221, 255, 0.205);">
+                                 <p>CSS</p></div>
+                     <div class="skill"  aria-valuenow="67" aria-valuemin="0" aria-valuemax="30" style="--value: 60;   --primary:rgb(255, 179, 0);
+                     --secondary: rgba(255, 231, 170, 0.226);">
+                                 <p>JAVASCRIPT</p></div>
+                                 <div class="skill"  aria-valuenow="67" aria-valuemin="0" aria-valuemax="30" style="--value: 60;  --primary:aqua;
+                                 --secondary: rgba(170, 221, 255, 0.233);">
+                                                             <p>React JS</p></div>
+                    </section>
+
+                    <section id="backend">
+                        <h2>back-end Technologys</h2>
+                            <div class="skill"  aria-valuenow="67" aria-valuemin="0" aria-valuemax="30" style="--value: 90;  --primary:rgb(0, 132, 255);
+    --secondary: rgba(170, 221, 255, 0.231);">
+                                <p>Django</p></div>
+                    <div class="skill"  aria-valuenow="67" aria-valuemin="0" aria-valuemax="30" style="--value: 60;  --primary:rgb(212, 255, 0);
+                                --secondary: rgba(172, 205, 26, 0.306);">
+                                                    <p>PHP</p></div>
+                           
+                    </section>
+
+                    <section id="database"><h2>databases</h2>
+                        <div class="skill"  aria-valuenow="67" aria-valuemin="0" aria-valuemax="30" style="--value: 60;  --primary:aqua;
+    --secondary: rgba(170, 221, 255, 0.244);"><p>MYSQL</p>
+                        </div>
+                        <!-- <div class="skill" aria-valuenow="67" aria-valuemin="0" aria-valuemax="30" style="--value: 60;  --primary:aqua;
+    --secondary: rgba(170, 221, 255, 0.183);"><p>MYSQL</p>
+                        </div> -->
+                        <!-- <div role="progressbar" ></div> -->
+                    </section>
+            
+            </div>
+
+
+<!-- contact section -->
+    <div class="contact" id="contact">
+        <h1>Contact Me</h1>
+        <p><b >Location:</b>Kolkata / West Bengal / India</p>
+        <p>Thank you for visiting my portfolio. I am enthusiastic about the potential to combine my web development expertise, photography, editing skills, and passion for writing to contribute to exciting projects. If you have any inquiries or would like to discuss potential collaborations, please feel free to contact me.</p>
+       <a href="tel:917047808326"><i class="fa-solid fa-mobile"></i></a>
+       <a href="https://wa.me/917047808326"><i class="fa-brands fa-whatsapp"></i></a> 
+       <a href="mailto:sombhudas93@gmail.com"><i class="fa-solid fa-envelope"></i></a> 
+       <a href="https://www.linkedin.com/in/sombhu-das-21176823a/"> <i class="fa-brands fa-linkedin-in"></i></a>
+       <a href="https://github.com/Sombhu2022"><i class="fa-brands fa-github"></i></a>
+       <a href="https://www.facebook.com/sombhu.das.5268?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a> 
+    </div>
+
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
