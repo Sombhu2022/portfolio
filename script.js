@@ -6,7 +6,7 @@
     })
 
 
-// script for nav bar 
+//script for nav bar 
     var menu=document.getElementById("menu_box");
     var option=document.getElementsById("nav_option");
  
@@ -25,7 +25,8 @@
         window.location.reload(true);
     }
     
-
+ 
+    
     
     function whatsapp(n){
 
